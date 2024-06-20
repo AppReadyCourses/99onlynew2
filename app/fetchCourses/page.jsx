@@ -27,7 +27,7 @@ const FetchCourses = () => {
                 <img src={course.imgUrl} alt="Course" />
               </figure>
               <div className="card-body">
-                <Link href={`/courses/${course._id}`}>
+                <Link href={`/fetchCourses/${course._id}`}>
                   <h2 className="card-title">
                     {course.title}
                     <div className="badge badge-secondary">NEW</div>
